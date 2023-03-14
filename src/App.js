@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Child from './Child';
+import Child2 from './Child2';
 
 import ClassEvent from './ClassEvent';
 // import FunctionEvent from './FunctionEvent';
@@ -10,6 +11,7 @@ class App extends Component {
           <ClassEvent />
           {/* <FunctionEvent /> */}
           <Child />
+          <Child2 />
       </div>
     );
   }
