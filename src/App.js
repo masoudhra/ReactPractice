@@ -39,6 +39,7 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import Post from './components/Post';
+import SendPost from './components/SendPost';
 class App extends Component {
 
   constructor(props) {
@@ -61,6 +62,7 @@ class App extends Component {
       <div>
           {/* <button onClick={this.getPost}>get post</button> */}
           {/* {this.state.postData.map(post => <p key={post.id}>{post.title}</p>)} */}
+          <SendPost/>
           <h1>Posts:</h1>
           {postData.map(post => <Post key={post.id} title= {post.title} body={post.body} />)}
       </div>
