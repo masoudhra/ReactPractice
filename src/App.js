@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
+import Logger from './components/Logger';
 
-import Form from './components/Form';
+
 class App extends Component {
     render() {
         return (
             <div>
-
-                <Form />
-               
-
+                <Logger />
             </div>
         );
     }
