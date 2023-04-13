@@ -7,7 +7,8 @@ const Logger = () => {
     const [number, setNumber] = useState(0);
     const [second, setSecond] = useState(0)
 
-
+// agar arayeye payin ke dakhelesh number ozashtim ra khali begozarim
+// faghat mounting ettefah miofte
     useEffect(() => {
         console.log(number);
     }, [number])
