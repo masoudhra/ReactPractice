@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Logger from './components/Logger';
+import Counter from './components/Counter';
 
 
 class App extends Component {
     render() {
         return (
             <div>
-                <Logger />
+                <Counter />
             </div>
         );
     }
