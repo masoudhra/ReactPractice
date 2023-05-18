@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Counter from './components/Counter';
+import Landing from './components/Landing';
 
 
 class App extends Component {
     render() {
         return (
             <div>
-                <Counter />
+                <Landing />
+
+        
             </div>
         );
     }
