@@ -19,4 +19,4 @@ const getCoin = async () => {
     return response.data;
 }
 
-export { getCoin }
+export { getCoin };
